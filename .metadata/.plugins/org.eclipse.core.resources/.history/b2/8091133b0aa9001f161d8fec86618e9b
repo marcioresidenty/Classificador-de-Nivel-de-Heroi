@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Desafio Nivel do Heroi</title>
+<script src="NivelHeroi.js"></script>
+</head>
+<body>
+<h2> Adicionar jogadores </h2>
+<button>Adicionar jogadores</button>
+</body>
+</html>

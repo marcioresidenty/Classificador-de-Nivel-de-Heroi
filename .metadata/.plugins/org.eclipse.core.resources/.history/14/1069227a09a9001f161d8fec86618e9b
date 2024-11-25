@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+
+let nome = [];
+let nivel = 10;
+
+
+nome.push("marcio");
+
+console.log("o nome é "+ nome[0])

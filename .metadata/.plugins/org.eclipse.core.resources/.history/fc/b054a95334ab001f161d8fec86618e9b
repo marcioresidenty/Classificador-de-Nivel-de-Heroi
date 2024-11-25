@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body {
+	width: 800px;
+	margin: auto;
+}
+header  {
+	height: 150px;
+	background: #c0c0c0;
+	border: 2px #c0c0c0 solid;
+}
+.titulo {
+	width: 300px;
+	margin: 45px auto;
+	
+}
+
+.bloco {
+
+background: aqua;
+
+}
+.heroi {
+
+width: 800px;
+height: 500px;
+
+margin:  auto;
+
+}
+
+
+
+#nome {
+	
+	padding: 40px;
+	display: inline-block;
+	margin: 80px 89px;
+}
+
+#xp {
+	
+	padding: 40px;
+	display: inline-block;
+}
+
+#botao {
+	border: 2px #c0c0c0 solid;
+	padding: 11px;
+	width: 595px;
+	margin: auto;
+	text-align: center;
+}
+#botao1 {
+	width: 250px;
+	padding: 8px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.menssagem {
+background: #ff0080;
+width: 800px;
+height: 80px;
+margin: auto;
+text-align: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Desafio nivel heroi </title>
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="titulo">
+			<h1 >Desafio Nivel Heroi</h1>
+		</div>
+	</header>
+
+<main class="bloco">
+	
+	<div class="heroi">
+
+		<form id="formulario">
+		   <div id="nome">
+	   			<label for="nome">Digite o nome do heroi:</label><br>
+	   			<input type="text" id="nomeHeroi" ><br>
+	   		</div>
+	   		<div id="xp">
+				<label for="nome">Digite o nivel do heroi:</label><br>
+				<input type="text" id="nivelHeroi" ><br>
+			</div>
+			<div id="botao">
+				<input type="button" id="botao1" value="Enviar"  onclick="recuperaNome()" >
+			</div>
+		</form>
+	
+		<div class="menssagem">
+			<h2 id=exibeMsg></h2>
+		</div>
+
+	</div>
+	
+
+
+</main>
+
+<footer>
+  <p class="copyright">&copy; Copyright Todos os direitos reservados - 2024</p>
+</footer>
+<script src="nivelHeroi.js"></script>
+</body>
+</html>

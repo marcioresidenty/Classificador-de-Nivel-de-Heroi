@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+
+let nome = "Marcio";
+let nivel;
+
+console.log("o nome é "+nome)

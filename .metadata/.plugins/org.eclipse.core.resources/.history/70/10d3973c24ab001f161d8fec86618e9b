@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+.cabecalho {
+	border: 2px red solid;
+	width: 800px;
+
+}
+
+.bloco {
+border: 2px red solid;
+margin: auto;
+}
+
+.menssagem {
+border: 2px #000000 solid;
+margin: auto;
+}

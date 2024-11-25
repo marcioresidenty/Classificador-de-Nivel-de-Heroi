@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+
+//let xp = 100;
+//let nome = [];
+
+//document.getElementById("exibeMsg").innerHTML = nome[0]
+//console.log(nome[0])
+// nome.push
+
+function recuperaNome() {
+	let nome1 = document.getElementById("nomeHeroi").value;
+	let xp = document.getElementById("nivelHeroi").value;
+	console.log(nome1)
+	//nome.push(nome1)
+	//console.log(nome[0])
+	console.log(xp)
+	
+	
+	
+	if (xp <= 1000 ){
+	document.getElementById("heroi").innerHTML = nome[0]
+	document.getElementById("experiencia").innerHTML = xp
+	document.getElementById("exibeMsg").innerHTML = "O Heroi de nome "+ nome[0] + " esta no nivel - "+xp
+	
+	} else
+	if(xp >= 1001 & xp <=2000 ) {
+	document.getElementById("heroi").innerHTML = nome[1]
+	   document.getElementById("experiencia").innerHTML = xp
+	document.getElementById("exibeMsg").innerHTML = "O Heroi de nome "+ nome[1] + " esta no nivel - "+xp
+	}
+	else {
+	document.getElementById("heroi").innerHTML = nome[2]
+	   document.getElementById("experiencia").innerHTML = xp
+	document.getElementById("exibeMsg").innerHTML = "O Heroi de nome "+ nome[2] + " esta no nivel - "+xp
+	}
+}
+
+//document.getElementById("heroi").innerHTML = nome[2]

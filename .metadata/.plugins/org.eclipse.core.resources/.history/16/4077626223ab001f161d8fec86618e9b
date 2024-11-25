@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+.cabecalho {
+height: 80px;
+margin-bottom: auto ;
+}
+
+.bloco {
+border: 2px red solid;
+margin: auto;
+}
+
+.menssagem {
+border: 2px #000000 solid;
+margin: auto;
+}

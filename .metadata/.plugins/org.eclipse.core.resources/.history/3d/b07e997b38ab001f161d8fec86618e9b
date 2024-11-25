@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+
+function recuperaNome() {
+	let nome = document.getElementById("nomeHeroi").value;
+	let xp = document.getElementById("nivelHeroi").value;
+	console.log(nome)
+	
+	console.log(xp)
+	
+	
+	
+	if (xp <= 1000 ){
+
+	document.getElementById("nomeHeroi").value = "";
+	document.getElementById("nivelHeroi").value = "";
+	document.getElementById("exibeMsg").innerHTML = "O Heroi de nome "+ nome + " esta no nivel - "+xp +" de Ferro"
+	
+	} else
+	if(xp >= 1001 & xp <=2000 ) {
+	
+	 document.getElementById("nomeHeroi").value = "";
+	 	document.getElementById("nivelHeroi").value = "";
+	document.getElementById("exibeMsg").innerHTML = "O Heroi de nome "+ nome + " esta no nivel - "+xp +" / nivel Broze"
+	}
+	else {
+	
+	document.getElementById("nomeHeroi").value = "";
+		document.getElementById("nivelHeroi").value = "";
+	document.getElementById("exibeMsg").innerHTML = "O Heroi de nome "+ nome + " esta no nivel - "+xp +" de prata"
+	}
+}
+

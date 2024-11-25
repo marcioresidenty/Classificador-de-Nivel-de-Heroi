@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+header  {
+	height: 200px;
+	background: #c0c0c0;
+	border: 2px #c0c0c0 solid;
+}
+.titulo {
+	width: 400px;
+	margin: 60px auto;
+	
+}
+
+.bloco {
+
+background: aqua;
+
+}
+.heroi {
+
+width: 800px;
+height: 400px;
+background: #00ff80;
+margin: auto;
+
+}
+
+#nome {
+	border: 2px #c0c0c0 solid;
+}
+
+.menssagem {
+background: #ff0080;
+width: 800px;
+height: 80px;
+margin: auto;
+}

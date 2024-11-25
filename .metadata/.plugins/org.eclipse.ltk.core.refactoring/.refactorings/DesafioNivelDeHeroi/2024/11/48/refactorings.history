@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DesafioNivelDeHeroi/webapp/NivelHeroi.js&apos; to &apos;nivelHeroi.js&apos;" description="Rename resource &apos;NivelHeroi.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="webapp/NivelHeroi.js" name="nivelHeroi.js" stamp="1732541890411" updateReferences="true"/>
+</session>

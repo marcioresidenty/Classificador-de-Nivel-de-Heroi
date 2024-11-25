@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+
+let nome = [] = document.getElementById("nome");
+let nivel = 10;
+
+
+nome.push("marcio");
+nome.push("maria");
+
+console.log("o nome é "+ nome[0] + nome[1])
